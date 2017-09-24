@@ -1,12 +1,20 @@
 package com.maxbet.registration.cucumber_runners;
 
 import com.maxbet.registration.config.TestConfig;
+import com.maxbet.registration.stepdefs.CommonSteps;
+import com.williamhill.whgtf.webdriver.MultiThreadedDriverFactory;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import junit.framework.TestCase;
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
+import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
+
+import java.util.Iterator;
 
 @CucumberOptions(
         plugin = { "pretty",
@@ -21,7 +29,15 @@ import org.springframework.test.context.ContextConfiguration;
         } )
 @RunWith( Cucumber.class )
 @ContextConfiguration( classes = TestConfig.class )
-
 public class RegistrationRunner {
     private static final Logger LOG = LoggerFactory.getLogger( RegistrationRunner.class );
+
+
+    @AfterClass
+    public static void closeDriver() {
+        CommonSteps.endTestCase("end");
+    }
+
+
+
 }
