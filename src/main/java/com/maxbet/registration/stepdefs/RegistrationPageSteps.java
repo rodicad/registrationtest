@@ -1,9 +1,9 @@
 package com.maxbet.registration.stepdefs;
 
 import com.maxbet.registration.config.TestConfig;
+import com.maxbet.registration.model.components.registration.RegistrationFormImpl;
 import com.maxbet.registration.model.pages.MaxebtMainPage;
 import com.maxbet.registration.stepdefs.expectedData.RegistrationTestValidator;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -15,8 +15,15 @@ import org.springframework.test.context.ContextConfiguration;
 @ContextConfiguration( classes = TestConfig.class )
 public class RegistrationPageSteps  {
 
-    @Autowired
     private  MaxebtMainPage mainPage;
+    private RegistrationFormImpl registrationForm;
+
+    @Autowired
+    public RegistrationPageSteps(MaxebtMainPage mainPage, RegistrationFormImpl registrationForm) {
+        this.mainPage= mainPage;
+        this.registrationForm = registrationForm;
+
+    }
 
     @Given( "^I open website under test$" )
     public void openWebsite() throws Exception {
@@ -25,7 +32,7 @@ public class RegistrationPageSteps  {
 
     @Then( "^correct page url should be displayed$" )
     public void correctPageUrlShouldBeDisplayed() throws Throwable {
-        Assert.assertEquals(RegistrationTestValidator.PAGE_TITLe, mainPage.getPageTitle());
+        Assert.assertEquals(RegistrationTestValidator.PAGE_TITLE, mainPage.getPageTitle());
     }
 
     @And("^registration container should display correct data$")
@@ -39,15 +46,26 @@ public class RegistrationPageSteps  {
 
     }
 
-    @When("^user clickon registration button")
+    @When("^user clicks on registration button")
     public void userOpensRegistrationForm() throws Throwable {
         mainPage.openRegistrationForm();
     }
 
     @Then("^registration form should be open$")
     public void registrationFormShouldBeOpen() throws Throwable {
-        Assert.assertTrue(mainPage.isRegistrationFormOpen());
-        mainPage.getRegistrationDataForm();
+        Assert.assertTrue( mainPage.isRegistrationFormOpen() );
+    }
+
+    @And( "^correct fields should be displayed in the registration form$" )
+    public void correctFieldsShouldBeDisplayedInTheRegistrationForm() throws Throwable {
+        registrationForm.initializeElements();
+        Assert.assertEquals(RegistrationTestValidator.FIRST_NAME_LABEL,registrationForm.getFirstNameLabel());
+        Assert.assertEquals(RegistrationTestValidator.LAST_NAME_LABEL,registrationForm.getLastNameLabel());
+        Assert.assertEquals(RegistrationTestValidator.DATE_OF_BIRTH_LABEL,registrationForm.getDateOfBirthLabel());
+        Assert.assertEquals(RegistrationTestValidator.ADDRESS_LABEL,registrationForm.getAddressLabel());
+        Assert.assertEquals(RegistrationTestValidator.USER_DETAILS_LABEL,registrationForm.getUserDetailsLabel());
+
+
 
     }
 }

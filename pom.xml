@@ -22,6 +22,7 @@
 
     <properties>
         <cucumber.version>1.2.5</cucumber.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 
@@ -37,8 +38,6 @@
             <artifactId>webdrivermanager</artifactId>
             <version>1.6.0</version>
         </dependency>
-
-
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>

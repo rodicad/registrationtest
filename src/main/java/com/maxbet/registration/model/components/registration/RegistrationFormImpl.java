@@ -1,335 +1,90 @@
 package com.maxbet.registration.model.components.registration;
 
-import com.maxbet.registration.model.components.interfaces.RegistrationForm;
-import com.maxbet.registration.model.pages.MaxebtMainPage;
 import com.maxbet.registration.model.pages.abstracts.AbstractPage;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.springframework.context.annotation.Lazy;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.List;
 
 /**
  * Created by Rodicad on 24/09/2017.
  */
 
-public class RegistrationFormImpl extends MaxebtMainPage implements RegistrationForm {
+@Component
+public class RegistrationFormImpl extends AbstractPage {
 
-    @FindBy(how = How.CSS, using = "#short_form_container > form > div:nth-child(1)")
-     public static WebElement prenume;
-    @FindBy( how = How.CSS, using = " #short_form_container > form > div" )
-    public static List<WebElement> registrationFields;
+    @FindBy( how = How.CSS, using = "#short_form_container > form > div:nth-child(1) > label" )
+    public static WebElement firstNameLabel;
 
-    public RegistrationFormImpl() {
-        PageFactory.initElements( super.getWebDriver(), RegistrationFormImpl.class );
-        System.out.println("Label frm reg form: "+prenume.getText());
-        System.out.println("Labels total reg form: "+registrationFields.size());
-    }
-    @Override
-    public void setFirstName(String var1) {
+    @FindBy( how = How.CSS, using = "#short_form_container > form > div:nth-child(2) > label" )
+    public static WebElement lastNameLabel;
 
-    }
+    @FindBy( how = How.CSS, using = "#short_form_container > form > div:nth-child(3) > label" )
+    public static WebElement dateOfBirthLabel;
 
-    @Override
-    public void setSurname(String var1) {
+    @FindBy( how = How.CSS, using = "#short_form_container > form > div:nth-child(4) > label" )
+    public static WebElement addressLabel;
 
-    }
+    @FindBy( how = How.CSS, using = "#short_form_container > form > div:nth-child(7) > label" )
+    public static WebElement userDetailsLabel;
 
-    @Override
-    public void setTitle(String var1) {
+    @FindBy( id = "firstname" )
+    public static WebElement firstNameField;
 
-    }
+    @FindBy( id = "lastname" )
+    public static WebElement lastNameField;
 
-    @Override
-    public void setDateOfBirth(String var1, String var2, String var3) {
+    @FindBy( id = "day" )
+    public static WebElement dayOfBirthField;
 
-    }
+    @FindBy( id = "month" )
+    public static WebElement monthOfBirthField;
 
-    @Override
-    public void setDayOfBirth(String var1) {
+    @FindBy( id = "year" )
+    public static WebElement yearOfBirthField;
 
-    }
+    @FindBy( id = "address" )
+    public static WebElement addressField;
 
-    @Override
-    public void setMonthOfBirth(String var1) {
+    @FindBy(how = How.CSS, using = "#short_form_container > form > button")
+    public static WebElement nextStepButton;
 
-    }
-
-    @Override
-    public void setYearOfBirth(String var1) {
-
+    @Autowired
+    public RegistrationFormImpl( WebDriver webDriver ) {
+       super (webDriver );
     }
 
-    @Override
-    public void setEmail(String var1) {
-
+    public void initializeElements() {
+        PageFactory.initElements( getWebDriver(), RegistrationFormImpl.class );
+        waitElementToBePresent( nextStepButton );
+        System.out.println("first name label : "+firstNameLabel.getText());
+        System.out.println("last  name label : "+lastNameLabel.getText());
+        System.out.println("date of birth label : "+dateOfBirthLabel.getText());
+        System.out.println("Address label : "+addressLabel.getText());
+        System.out.println("date utiliziatr label : "+userDetailsLabel.getText());
     }
 
-    @Override
-    public void setMobile(String var1) {
-
+    public String getFirstNameLabel() {
+        return firstNameLabel.getText();
     }
 
-    @Override
-    public void setCountry(String var1) {
-
+    public String getLastNameLabel() {
+        return lastNameLabel.getText();
     }
 
-    @Override
-    public void setAddressLine1(String var1) {
-
+    public String getDateOfBirthLabel() {
+        return dateOfBirthLabel.getText();
     }
 
-    @Override
-    public void setAddressLine2(String var1) {
-
+    public String getAddressLabel() {
+        return addressLabel.getText();
     }
 
-    @Override
-    public void setCity(String var1) {
-
+    public String getUserDetailsLabel() {
+        return userDetailsLabel.getText();
     }
 
-    @Override
-    public void setCounty(String var1) {
-
-    }
-
-    @Override
-    public void setPostalCode(String var1) {
-
-    }
-
-    @Override
-    public void setUsername(String var1) {
-
-    }
-
-    @Override
-    public void setPassword(String var1) {
-
-    }
-
-    @Override
-    public void setSecurityQuestion(String var1) {
-
-    }
-
-    @Override
-    public void setSecurityAnswer(String var1) {
-
-    }
-
-    @Override
-    public void setCurrency(String var1) {
-
-    }
-
-    @Override
-    public void setDepositLimit() {
-
-    }
-
-    @Override
-    public void setTypeOfLimit(String var1) {
-
-    }
-
-    @Override
-    public void setLimitAmount(String var1) {
-
-    }
-
-    @Override
-    public void setPromoCode(String var1) {
-
-    }
-
-    @Override
-    public void checkOver18() {
-
-    }
-
-    @Override
-    public void uncheckOver18() {
-
-    }
-
-    @Override
-    public void checkReceiveFreeBets() {
-
-    }
-
-    @Override
-    public void uncheckReceiveFreeBets() {
-
-    }
-
-    @Override
-    public String getFirstName() {
-        return null;
-    }
-
-    @Override
-    public String getSurname() {
-        return null;
-    }
-
-    @Override
-    public String getTitle() {
-        return null;
-    }
-
-    @Override
-    public String getDateOfBirth() {
-        return null;
-    }
-
-    @Override
-    public String getDayOfBirth() {
-        return null;
-    }
-
-    @Override
-    public String getMonthOfBirth() {
-        return null;
-    }
-
-    @Override
-    public String getYearOfBirth() {
-        return null;
-    }
-
-    @Override
-    public String getEmail() {
-        return null;
-    }
-
-    @Override
-    public String getMobile() {
-        return null;
-    }
-
-    @Override
-    public String getCountry() {
-        return null;
-    }
-
-    @Override
-    public String getAddressLine1() {
-        return null;
-    }
-
-    @Override
-    public String getAddressLine2() {
-        return null;
-    }
-
-    @Override
-    public String getCity() {
-        return null;
-    }
-
-    @Override
-    public String getCounty() {
-        return null;
-    }
-
-    @Override
-    public String getPostalCode() {
-        return null;
-    }
-
-    @Override
-    public String getUsername() {
-        return null;
-    }
-
-    @Override
-    public String getPassword() {
-        return null;
-    }
-
-    @Override
-    public String getSecurityQuestion() {
-        return null;
-    }
-
-    @Override
-    public String getSecurityAnswer() {
-        return null;
-    }
-
-    @Override
-    public String getCurrency() {
-        return null;
-    }
-
-    @Override
-    public String getDepositLimit() {
-        return null;
-    }
-
-    @Override
-    public String getPromoCode() {
-        return null;
-    }
-
-    @Override
-    public void clickOnMrTitle() {
-
-    }
-
-    @Override
-    public void clickOnMsTitle() {
-
-    }
-
-    @Override
-    public void clickOnMrsTitle() {
-
-    }
-
-    @Override
-    public void clickOnMissTitle() {
-
-    }
-
-    @Override
-    public void clickOnHide() {
-
-    }
-
-    @Override
-    public void clickOnDailyLimit() {
-
-    }
-
-    @Override
-    public void clickOnWeeklyLimit() {
-
-    }
-
-    @Override
-    public void clickOnMonthlyLimit() {
-
-    }
-
-    @Override
-    public void clickOnCreateAccount() {
-
-    }
-
-    @Override
-    public boolean isDisplayed() {
-        return false;
-    }
-
-    @Override
-    public void clickOnEnterAddressManualy() {
-
-    }
 }

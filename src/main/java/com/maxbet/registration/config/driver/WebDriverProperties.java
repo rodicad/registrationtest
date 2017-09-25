@@ -11,8 +11,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Properties;
 
@@ -22,24 +20,18 @@ public class WebDriverProperties {
 
     private final static Logger logger = LogManager.getLogger(com.williamhill.whgtf.webdriver.WebDriverProperties.class);
 
-    private static final int DEFAULT_IMPLICIT_WAIT = 5;
+    private static final int DEFAULT_IMPLICIT_WAIT = 15;
     private static final int DEFAULT_PAGE_LOAD_TIMEOUT = 30;
-
-//    private static final String REMOTE_BROWSER_VERSION_BY_DEFAULT = "ANY";
 
     //////////////
     // BROWSER //
     /////////////
-
-
-
     private String browserType;
     private Dimension browserResolution;
 
     ////////////
     // WAITS //
     ///////////
-
     private int implicitlyWait;
     private int pageLoadTimeout;
 
@@ -60,24 +52,8 @@ public class WebDriverProperties {
     ////////////////////
     // Property files //
     ////////////////////
-
     private static final Properties SELENIUM_PROPERTIES = new Properties();
     private static final String SELENIUM_PROPS_FILE_PATH = "selenium/selenium.properties";
-
-//    //////////////////////
-//    // OS ARCHITECTURE //
-//    /////////////////////
-//
-//    private final String endpointOSName;
-//    private final String endpointOSArch;
-//    private final String endpointIP;
-//
-//    // Remote specific
-//    private boolean isGridExecution;
-//    private String platformName;
-//    private String browserVersion;
-//	private String gridHubUrl;
-//	private String hubUrl;
 
     ///////////////////
     // SCREEN SHOTS //
@@ -103,24 +79,6 @@ public class WebDriverProperties {
         configureScreenshotResolution();
     }
 
-    /////////////////////////
-    // STATIC INITIALIZERS //
-    ////////////////////////
-
-    static {
-
-        InputStream inputStream = com.williamhill.whgtf.webdriver.WebDriverProperties.class.getClassLoader().getResourceAsStream(SELENIUM_PROPS_FILE_PATH);
-
-        if (inputStream == null)
-            logger.debug("selenium.properties file not found in path " + SELENIUM_PROPS_FILE_PATH);
-        else {
-            try {
-                SELENIUM_PROPERTIES.load(inputStream);
-            } catch (IOException e) {
-                logger.error(e);
-            }
-        }
-    }
 
 
     /////////////
@@ -159,7 +117,6 @@ public class WebDriverProperties {
         System.setProperty(IE_BINARY_PROP_SYS_PROP_NAME, IE_PATH);
 
     }
-
 
     /**
      * Configure implicitlyWait and pageLoadTimeout using selenium/selenium.properties props file
@@ -206,7 +163,7 @@ public class WebDriverProperties {
     /**
      * Configure screenshot resolution
      * If no properties are defined in selenium/selenium.properties file use
-     * {@link com.williamhill.whgtf.webdriver.WebDriverProperties#DEFAULT_SCREENSHOT_RESOLUTION}
+     * {@link WebDriverProperties#DEFAULT_SCREENSHOT_RESOLUTION}
      */
     public void configureScreenshotResolution() {
         String resolution = SELENIUM_PROPERTIES.getProperty("screenshot.resolution", "");
