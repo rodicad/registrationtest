@@ -72,7 +72,6 @@ public class MaxebtMainPage extends AbstractPage {
         registrationContainer.setTitle(registrationContainerTitle.getText());
         registrationContainer.setSubtitle(registrationContainerSubTitle.getText());
         registrationContainer.setCheckmark(registrationContainerCheckmark.getText());
-
         registrationContainer.setFbRegistrationButton(new WebButton(fbRegistrationButton));
         registrationContainer.setRegistrationButton(new WebButton(registrationButton));
     }

@@ -9,6 +9,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 
@@ -33,6 +34,7 @@ public class RegistrationPageSteps  {
     @Then( "^correct page url should be displayed$" )
     public void correctPageUrlShouldBeDisplayed() throws Throwable {
         Assert.assertEquals(RegistrationTestValidator.PAGE_TITLE, mainPage.getPageTitle());
+
     }
 
     @And("^registration container should display correct data$")
@@ -59,6 +61,13 @@ public class RegistrationPageSteps  {
     @And( "^correct fields should be displayed in the registration form$" )
     public void correctFieldsShouldBeDisplayedInTheRegistrationForm() throws Throwable {
         registrationForm.initializeElements();
+
+        System.out.println("script execution:" +((JavascriptExecutor) registrationForm.getWebDriver()).executeScript( "return document.getElementsByName('registration')[0][1].validationMessage" ));
+
+        registrationForm.nextStepButton.click();
+        System.out.println("script execution:" +((JavascriptExecutor) registrationForm.getWebDriver()).executeScript( "return document.getElementsByName('registration')[0][1].validationMessage" ));
+
+
         Assert.assertEquals(RegistrationTestValidator.FIRST_NAME_LABEL,registrationForm.getFirstNameLabel());
         Assert.assertEquals(RegistrationTestValidator.LAST_NAME_LABEL,registrationForm.getLastNameLabel());
         Assert.assertEquals(RegistrationTestValidator.DATE_OF_BIRTH_LABEL,registrationForm.getDateOfBirthLabel());

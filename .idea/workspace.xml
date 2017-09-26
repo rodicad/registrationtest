@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2a450d-48f7-4f2b-a5ba-d763f5ab636f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/interfaces/RegistrationForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/components/interfaces/RegistrationForm.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registrationtest" afterPath="$PROJECT_DIR$/registrationtest" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/BrowserDriverInit.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/BrowserDriverInit.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/WebDriverProperties.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/WebDriverProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/components/registration/RegistrationFormImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/components/registration/RegistrationFormImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/MaxebtMainPage.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/MaxebtMainPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/abstracts/AbstractPage.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/abstracts/AbstractPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/CommonSteps.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/CommonSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/RegistrationPageSteps.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/RegistrationPageSteps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/expectedData/RegistrationTestValidator.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/stepdefs/expectedData/RegistrationTestValidator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maxbet-registration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/maxbet-registration-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/maxbet/registration/cucumber_runners/RegistrationRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/maxbet/registration/cucumber_runners/RegistrationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/WebDriverProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/WebDriverProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractDriver.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/CommonSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/CommonSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/expectedData/RegistrationTestValidator.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/expectedData/RegistrationTestValidator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature" afterPath="$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber/cucumber-json-report.json" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-json-report.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cucumber/features/RegistrationFormUI.feature" afterPath="$PROJECT_DIR$/target/test-classes/cucumber/features/RegistrationFormUI.feature" />
     </list>
     <ignored path="maxbetRegistration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +29,8 @@
       <file leaf-file-name="MaxebtMainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+            <state relative-caret-position="189">
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +38,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RegistrationFormUI.feature" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AbstractPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="99">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,8 +61,8 @@
       <file leaf-file-name="RegistrationPageSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,11 +70,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RemoteWebDriver.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="497" column="0" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lists.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Lists.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesiredCapabilities.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistrationFormImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,18 +115,8 @@
       <file leaf-file-name="LocatingElementHandler.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
+            <state relative-caret-position="391">
               <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteWebElement.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,38 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultElementLocator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserDriverInit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -232,15 +201,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/CommonSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/WebDriverProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/interfaces/RegistrationForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/expectedData/RegistrationTestValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java" />
       </list>
     </option>
   </component>
@@ -1686,40 +1655,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.09.25 at 15h 55m 17s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 32m 30s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 15h 56m 26s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 37m 21s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 15h 57m 10s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 38m 49s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 00m 55s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 42m 27s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 02m 05s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 46m 11s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 03m 45s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 47m 09s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 05m 50s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 52m 21s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 09m 49s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 53m 07s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 12m 48s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 53m 28s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.09.25 at 16h 14m 45s.xml">
+    <history-entry file="Unnamed - 2017.09.26 at 09h 54m 42s.xml">
       <configuration name="Unnamed" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1728,7 +1697,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40548205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40548205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1739,7 +1708,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3988658" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988658" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1812,7 +1781,7 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1821,14 +1790,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1883,14 +1844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Lists.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1963,14 +1916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="329" column="0" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2111,14 +2056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/base/Preconditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -2151,16 +2088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -2179,46 +2106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2235,6 +2126,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.0.1/selenium-support-3.0.1-sources.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/DesiredCapabilities.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/com/google/common/collect/Lists.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.0.1/selenium-remote-driver-3.0.1.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="497" column="0" selection-start-line="497" selection-start-column="0" selection-end-line="497" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxbet/registration/stepdefs/RegistrationPageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/features/RegistrationFormUI.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

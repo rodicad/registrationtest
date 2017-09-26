@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17428703,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.startTestCase(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Print url",
+        "description": "",
+        "id": "access-website-under-test;print-url",
+        "after": [
+          {
+            "result": {
+              "duration": 1407251068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.endTestCase(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5969621844,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open website under test",
+            "match": {
+              "location": "RegistrationPageSteps.openWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11072996,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "correct page url should be displayed",
+            "match": {
+              "location": "RegistrationPageSteps.correctPageUrlShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216934246,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "#   And registration container should display correct data"
+              }
+            ],
+            "line": 8,
+            "name": "user clicks on registration button",
+            "match": {
+              "location": "RegistrationPageSteps.userOpensRegistrationForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83980081,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "registration form should be open",
+            "match": {
+              "location": "RegistrationPageSteps.registrationFormShouldBeOpen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1184324286,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "correct fields should be displayed in the registration form",
+            "match": {
+              "location": "RegistrationPageSteps.correctFieldsShouldBeDisplayedInTheRegistrationForm()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@mainPage"
+          }
+        ]
+      }
+    ],
+    "name": "Access website under test",
+    "description": "",
+    "id": "access-website-under-test",
+    "keyword": "Feature",
+    "uri": "RegistrationFormUI.feature"
+  }
+]
