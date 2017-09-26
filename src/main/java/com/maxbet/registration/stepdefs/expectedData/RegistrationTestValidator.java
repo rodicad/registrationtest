@@ -19,6 +19,11 @@ public class RegistrationTestValidator {
     public static final String USER_DETAILS_LABEL = "Detalii utilizator:";
 
 
+    //deposit form expected data
+    public static final String DEPOSIT_FORM_TITLE  = "INTRODUCEȚI DETALIILE DUMNEAVOASTRĂ";
+    public static final String SUCCESFULL_DEPOSIT_LABEL  = "Succes";
+
+
 
 
 

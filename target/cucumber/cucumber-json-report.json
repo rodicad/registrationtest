@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12452830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.startTestCase(Scenario)"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Print url",
+        "description": "",
+        "id": "happy-path-for-registration;print-url",
+        "after": [
+          {
+            "result": {
+              "duration": 1607107328,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.endTestCase(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5613854676,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I open website under test",
+            "match": {
+              "location": "RegistrationPageSteps.openWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8063834,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "correct page url should be displayed",
+            "match": {
+              "location": "RegistrationPageSteps.correctPageUrlShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63648586,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "cookie \"_flow2,1\" is deleted",
+            "match": {
+              "arguments": [
+                {
+                  "val": "_flow2,1",
+                  "offset": 8
+                }
+              ],
+              "location": "RegistrationPageSteps.cookieIsDeleted(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168946630,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on registration button",
+            "match": {
+              "location": "RegistrationPageSteps.userOpensRegistrationForm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1053242679,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "registration form should be open",
+            "match": {
+              "location": "RegistrationPageSteps.registrationFormShouldBeOpen()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1011456264,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user registers with valid data",
+            "match": {
+              "location": "RegistrationPageSteps.userRegistersValidData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Ana",
+                  "Dana",
+                  "01",
+                  "01",
+                  "1980",
+                  "strada Cepei",
+                  "11315",
+                  "Cluj",
+                  "test@playtech.com",
+                  "645876555",
+                  "testAccount",
+                  "testPssword"
+                ],
+                "line": 27
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5462183747,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "a deposit form should be displayed",
+            "match": {
+              "location": "RegistrationPageSteps.aDepositFormShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 935408640,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user fills in deposit form with valid data",
+            "match": {
+              "location": "RegistrationPageSteps.userFillsInDepositFormWithValidData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "4265032684276897",
+                  "04",
+                  "2019",
+                  "338"
+                ],
+                "line": 30
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2901594399,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Succe]s\u003e but was:\u003c[Respin]s\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.maxbet.registration.stepdefs.RegistrationPageSteps.depositShouldFinishSuccessfully(RegistrationPageSteps.java:148)\r\n\tat ✽.Then deposit should finish successfully(RegistrationFormUI.feature:31)\r\n",
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "deposit should finish successfully",
+            "match": {
+              "location": "RegistrationPageSteps.depositShouldFinishSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@register_with_no_cookie"
+          }
+        ]
+      }
+    ],
+    "name": "Happy path for registration",
+    "description": "",
+    "id": "happy-path-for-registration",
+    "keyword": "Feature",
+    "uri": "RegistrationFormUI.feature"
+  }
+]

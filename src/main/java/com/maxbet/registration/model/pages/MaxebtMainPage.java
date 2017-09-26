@@ -1,6 +1,5 @@
 package com.maxbet.registration.model.pages;
 
-import com.maxbet.registration.model.components.HeaderComponent;
 import com.maxbet.registration.model.components.SportsPromos;
 import com.maxbet.registration.model.components.registration.RegistrationContainer;
 import com.maxbet.registration.model.components.registration.RegistrationFormImpl;
@@ -49,12 +48,6 @@ public class MaxebtMainPage extends AbstractPage {
 
 
     public static final By openFormLocator = By.id( "short_form_container" );
-
-    private HeaderComponent header;
-
-    private SportsPromos sportsPromos;
-
-    private RegistrationFormImpl registrationDataForm;
 
     @Autowired
     public MaxebtMainPage( WebDriver webDriver ) {

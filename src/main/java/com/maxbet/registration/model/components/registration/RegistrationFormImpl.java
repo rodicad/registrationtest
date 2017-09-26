@@ -3,6 +3,8 @@ package com.maxbet.registration.model.components.registration;
 import com.maxbet.registration.model.pages.abstracts.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
@@ -49,6 +51,29 @@ public class RegistrationFormImpl extends AbstractPage {
     @FindBy( id = "address" )
     public static WebElement addressField;
 
+    @FindBy( id = "postcode" )
+    public static WebElement postCodeField;
+
+    @FindBy( id = "city" )
+    public static WebElement cityField;
+
+    @FindBy( id = "email" )
+    public static WebElement emailField;
+
+    @FindBy( id = "phone" )
+    public static WebElement phoneField;
+
+    @FindBy( id = "username" )
+    public static WebElement usernameField;
+
+    @FindBy( id = "password" )
+    public static WebElement passwordField;
+
+    @FindBy( id = "over18" )
+    public static WebElement over18checkBox;
+
+
+
     @FindBy(how = How.CSS, using = "#short_form_container > form > button")
     public static WebElement nextStepButton;
 
@@ -61,6 +86,14 @@ public class RegistrationFormImpl extends AbstractPage {
         PageFactory.initElements( getWebDriver(), RegistrationFormImpl.class );
         waitElementToBePresent( nextStepButton );
         System.out.println("first name label : "+firstNameLabel.getText());
+        Actions ToolTip1 = new Actions(getWebDriver());
+
+        waitForElementClickable(nextStepButton).click();
+
+
+        //ToolTip1.moveToElement(firstNameField).build().perform();
+
+
         System.out.println("last  name label : "+lastNameLabel.getText());
         System.out.println("date of birth label : "+dateOfBirthLabel.getText());
         System.out.println("Address label : "+addressLabel.getText());
@@ -86,5 +119,61 @@ public class RegistrationFormImpl extends AbstractPage {
     public String getUserDetailsLabel() {
         return userDetailsLabel.getText();
     }
+    public  WebElement getFirstNameField() {
+        return firstNameField;
+    }
+
+    public  WebElement getLastNameField() {
+        return lastNameField;
+    }
+
+    public  WebElement getDayOfBirthField() {
+        return dayOfBirthField;
+    }
+
+    public  WebElement getMonthOfBirthField() {
+        return monthOfBirthField;
+    }
+
+    public  WebElement getYearOfBirthField() {
+        return yearOfBirthField;
+    }
+
+    public  WebElement getAddressField() {
+        return addressField;
+    }
+
+    public  WebElement getNextStepButton() {
+        return nextStepButton;
+    }
+
+    public static WebElement getPostCodeField() {
+        return postCodeField;
+    }
+
+    public static WebElement getCityField() {
+        return cityField;
+    }
+
+    public static WebElement getEmailField() {
+        return emailField;
+    }
+
+    public static WebElement getPhoneField() {
+        return phoneField;
+    }
+
+    public WebElement getUsernameField() {
+        return usernameField;
+    }
+
+    public WebElement getPasswordField() {
+        return passwordField;
+    }
+
+    public WebElement getOver18checkBox() {
+        return over18checkBox;
+    }
+
 
 }

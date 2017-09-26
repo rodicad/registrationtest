@@ -49,12 +49,26 @@ public abstract class AbstractPage {
         return new WebDriverWait(webDriver, DEFAULT_TIMEWAIT).until(ExpectedConditions.visibilityOf(element));
     }
 
+    public WebElement waitElementToBePresent(WebElement element, long timeout) {
+        return new WebDriverWait(webDriver, timeout).until(ExpectedConditions.visibilityOf(element));
+    }
+
     public WebElement waitElementToBePresentByLocator(By locator) {
         return new WebDriverWait(webDriver, DEFAULT_TIMEWAIT).until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+
+    public WebElement waitElementToBePresentByLocator(By locator, long timeWait) {
+        return new WebDriverWait(webDriver, timeWait).until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
     public boolean isElementDisplayed(By locator) {
         return ExpectedConditions.invisibilityOfElementLocated(locator ).apply( webDriver );
+    }
+
+    public Object waitForIFrameToLoad(By locator) {
+        return new WebDriverWait(webDriver, DEFAULT_TIMEWAIT).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(locator));
+
     }
 
 
