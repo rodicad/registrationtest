@@ -41,8 +41,10 @@ public abstract class AbstractPage {
     }
 
     public WebElement waitForElementClickable(WebElement element) {
+
+
             return new WebDriverWait(webDriver, DEFAULT_TIMEWAIT)
-                    .until( ExpectedConditions.elementToBeClickable(element));
+                    .until(ExpectedConditions.elementToBeClickable(element));
         }
 
     public WebElement waitElementToBePresent(WebElement element) {

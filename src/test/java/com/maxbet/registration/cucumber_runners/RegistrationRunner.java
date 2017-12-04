@@ -3,6 +3,7 @@ package com.maxbet.registration.cucumber_runners;
 import com.maxbet.registration.config.TestConfig;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
+import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,13 +24,6 @@ import org.springframework.test.context.ContextConfiguration;
 @ContextConfiguration( classes = TestConfig.class )
 public class RegistrationRunner {
     private static final Logger LOG = LoggerFactory.getLogger( RegistrationRunner.class );
-
-
-//
-//    @AfterClass
-//    public static void closeDriver() {
-//        commonSteps.endTestCase("end");
-//    }
 
 
 

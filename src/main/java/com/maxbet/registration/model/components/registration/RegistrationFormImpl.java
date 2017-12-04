@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 /**
  * Created by Rodicad on 24/09/2017.
  */
-
 @Component
 public class RegistrationFormImpl extends AbstractPage {
 
@@ -52,10 +51,14 @@ public class RegistrationFormImpl extends AbstractPage {
     @FindBy(how = How.CSS, using = "#short_form_container > form > button")
     public static WebElement nextStepButton;
 
-    @Autowired
-    public RegistrationFormImpl( WebDriver webDriver ) {
-       super (webDriver );
+    public RegistrationFormImpl(WebDriver webDriver) {
+        super(webDriver);
     }
+//
+//    @Autowired
+//    public RegistrationFormImpl( WebDriver webDriver ) {
+//       super (webDriver );
+//    }
 
     public void initializeElements() {
         PageFactory.initElements( getWebDriver(), RegistrationFormImpl.class );

@@ -16,8 +16,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-@Component
 @PropertySource( "classpath:application.properties" )
+@Component
 public class MaxebtMainPage extends AbstractPage {
 
     private RegistrationContainer registrationContainer;
@@ -56,7 +56,6 @@ public class MaxebtMainPage extends AbstractPage {
 
     private RegistrationFormImpl registrationDataForm;
 
-    @Autowired
     public MaxebtMainPage( WebDriver webDriver ) {
         super( webDriver );
     }

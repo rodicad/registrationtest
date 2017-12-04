@@ -9,10 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
  */
 @PropertySource( "classpath:src/test/resources/selenium.properties" )
 @ContextConfiguration( classes = TestConfig.class )
-
 public class Main {
-
-
 
     public static void main(String[] args) {
 

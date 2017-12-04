@@ -20,6 +20,7 @@
         </plugins>
     </build>
 
+
     <properties>
         <cucumber.version>1.2.5</cucumber.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,6 +28,19 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -52,14 +66,14 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.0.1</version>
+            <version>3.8.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>3.0.1</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.seleniumhq.selenium</groupId>-->
+            <!--<artifactId>selenium-chrome-driver</artifactId>-->
+            <!--<version>3.8.0</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -82,16 +96,14 @@
             <version>4.3.6.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.williamhill.whgtf</groupId>
-            <artifactId>whgtf-webdriver</artifactId>
-            <version>3.0.9</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.williamhill.whgtf</groupId>-->
+            <!--<artifactId>whgtf-webdriver</artifactId>-->
+            <!--<version>3.0.9</version>-->
+        <!--</dependency>-->
 
 
 
     </dependencies>
-
-
 
 </project>

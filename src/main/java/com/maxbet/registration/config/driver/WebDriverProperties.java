@@ -1,10 +1,9 @@
 package com.maxbet.registration.config.driver;
 
-import com.williamhill.whgtf.browsers.BrowserTypes;
-import com.williamhill.whgtf.utils.JVMArgs;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.Dimension;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -13,12 +12,14 @@ import org.springframework.stereotype.Component;
 import java.io.File;
 import java.util.Arrays;
 import java.util.Properties;
+import java.util.logging.LogManager;
 
 @Component
 @PropertySource("classpath:selenium/selenium.properties")
-public class WebDriverProperties {
 
-    private final static Logger logger = LogManager.getLogger(com.williamhill.whgtf.webdriver.WebDriverProperties.class);
+public class WebDriverProperties {
+    private static final Logger LOG = LoggerFactory.getLogger( WebDriverProperties.class );
+
 
     private static final int DEFAULT_IMPLICIT_WAIT = 15;
     private static final int DEFAULT_PAGE_LOAD_TIMEOUT = 30;
@@ -74,6 +75,8 @@ public class WebDriverProperties {
         this.browserType = browserType;
         Integer[] resolutionArray = getBrowserResolutionArray(browserResolution);
         this.browserResolution =  new Dimension(resolutionArray[0], resolutionArray[1]);
+        LOG.info("Selected browser: {}, with resolution {} ",browserType,browserResolution);
+
 
         configureTimeouts();
         configureScreenshotResolution();
@@ -90,8 +93,8 @@ public class WebDriverProperties {
      *
      * @param browser String
      */
-    public void setBrowserType(BrowserTypes browser) {
-        browserType = browser.getBrowserName();
+    public void setBrowserType(String browser) {
+        browserType = browser;
     }
 
 
@@ -121,7 +124,7 @@ public class WebDriverProperties {
     /**
      * Configure implicitlyWait and pageLoadTimeout using selenium/selenium.properties props file
      * If no properties are defined in selenium/selenium.properties file use
-     * {@link com.williamhill.whgtf.webdriver.WebDriverProperties#DEFAULT_IMPLICIT_WAIT} and {@link com.williamhill.whgtf.webdriver.WebDriverProperties#DEFAULT_PAGE_LOAD_TIMEOUT}
+     * {@link WebDriverProperties#DEFAULT_IMPLICIT_WAIT} and {@link WebDriverProperties#DEFAULT_PAGE_LOAD_TIMEOUT}
      */
     public void configureTimeouts() {
 
@@ -137,8 +140,8 @@ public class WebDriverProperties {
         else
             pageLoadTimeout = Integer.parseInt(pageLoadTimeoutProp);
 
-        logger.debug("Configuring implicitly wait to " + implicitlyWait + " sec.");
-        logger.debug("Configuring page load timeout to " + pageLoadTimeout + " sec.");
+        LOG.debug("Configuring implicitly wait to " + implicitlyWait + " sec.");
+        LOG.debug("Configuring page load timeout to " + pageLoadTimeout + " sec.");
     }
 
     /**
@@ -180,7 +183,7 @@ public class WebDriverProperties {
             screenshotResolution = DEFAULT_SCREENSHOT_RESOLUTION;
         }
 
-        logger.debug("Configuring screenshot resolution to " + screenshotResolution);
+        LOG.debug("Configuring screenshot resolution to " + screenshotResolution);
     }
 
     /////////////
@@ -205,29 +208,29 @@ public class WebDriverProperties {
     public String getBrowserType() {
         return browserType;
     }
-
-    /**
-     * Method to return the value of SCREENSHOTS_DIR
-     *
-     * @return SCREENSHOTS_DIR or DEFAULT_SCREENSHOTS_DIR if so
-     */
-    public String getScreenshotsDir() {
-
-        String screenshotsDir = SELENIUM_PROPERTIES.getProperty(JVMArgs.SCREEN_SHOTS_DIR.getName(), DEFAULT_SCREENSHOTS_DIR);
-
-        File outputFolder = new File(screenshotsDir);
-        if (!outputFolder.exists()) {
-            // if not, trying to create
-            try {
-                outputFolder.mkdir();
-            } catch (Exception e) {
-                logger.error("Error when trying to create directory " + screenshotsDir, e);
-                logger.error("So using " + DEFAULT_SCREENSHOTS_DIR + " instead of");
-                return DEFAULT_SCREENSHOTS_DIR;
-            }
-        }
-        return screenshotsDir;
-    }
+//
+//    /**
+//     * Method to return the value of SCREENSHOTS_DIR
+//     *
+//     * @return SCREENSHOTS_DIR or DEFAULT_SCREENSHOTS_DIR if so
+//     */
+//    public String getScreenshotsDir() {
+//
+//     //   String screenshotsDir = SELENIUM_PROPERTIES.getProperty(JVMArgs.SCREEN_SHOTS_DIR.getName(), DEFAULT_SCREENSHOTS_DIR);
+//
+//        File outputFolder = new File(screenshotsDir);
+//        if (!outputFolder.exists()) {
+//            // if not, trying to create
+//            try {
+//                outputFolder.mkdir();
+//            } catch (Exception e) {
+//                LOG.error("Error when trying to create directory " + screenshotsDir, e);
+//                LOG.error("So using " + DEFAULT_SCREENSHOTS_DIR + " instead of");
+//                return DEFAULT_SCREENSHOTS_DIR;
+//            }
+//        }
+//        return screenshotsDir;
+//    }
 
     /**
      * @return screenshotResolution String
@@ -295,7 +298,7 @@ public class WebDriverProperties {
                 String[] dims = browserResolution.split("x");
                 dimensions = new Integer[]{Integer.valueOf(dims[0]), Integer.valueOf(dims[1])};
             } catch (NumberFormatException e) {
-                logger.error("Error parsing dimensions from " + browserResolution, e);
+                LOG.error("Error parsing dimensions from " + browserResolution, e);
             }
             return dimensions;
         }

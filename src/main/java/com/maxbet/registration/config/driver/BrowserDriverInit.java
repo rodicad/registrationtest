@@ -11,8 +11,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class BrowserDriverInit  {
 
-    @Autowired
+
     private WebDriverProperties webDriverProperties;
+
+    @Autowired
+    public BrowserDriverInit(WebDriverProperties webDriverProperties) {
+        this.webDriverProperties = webDriverProperties;
+
+    }
 
     @Bean
     public WebDriver webDriver(){
@@ -20,6 +26,8 @@ public class BrowserDriverInit  {
         if (webDriverProperties.getBrowserType().equals("chrome")) {
             driver = initChromeDriver();
         } else if (webDriverProperties.getBrowserType().equals("firefox")){
+            System.setProperty("webdriver.gecko.driver","src/test/resources/selenium/firefoxdriver/geckodriver.exe");
+
             driver = initFirefoxDriver();
         } else if (webDriverProperties.getBrowserType().equals("firefox")){
             driver = initIEDriver();
