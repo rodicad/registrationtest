@@ -1,9 +1,5 @@
 package com.maxbet.registration.config.driver;
 
-import com.williamhill.whgtf.browsers.BrowserTypes;
-import com.williamhill.whgtf.utils.JVMArgs;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
