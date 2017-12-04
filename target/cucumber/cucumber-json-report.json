@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7214077,
+              "duration": 3199573,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 801433258,
+              "duration": 900570453,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2488557018,
+              "duration": 2785313280,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 8445863,
+              "duration": 9745067,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 191447811,
+              "duration": 249106347,
               "status": "passed"
             },
             "comments": [
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 96287959,
+              "duration": 631934720,
               "status": "passed"
             },
             "line": 9,
@@ -88,8 +88,9 @@
           },
           {
             "result": {
-              "duration": 1158370492,
-              "status": "passed"
+              "duration": 543737600,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Adresă]\u003e but was:\u003c[Email]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.maxbet.registration.stepdefs.RegistrationPageSteps.correctFieldsShouldBeDisplayedInTheRegistrationForm(RegistrationPageSteps.java:74)\r\n\tat ✽.And correct fields should be displayed in the registration form(RegistrationFormUI.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "correct fields should be displayed in the registration form",

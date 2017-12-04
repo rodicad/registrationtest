@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 7214077,
+  "duration": 3199573,
   "status": "passed"
 });
 formatter.scenario({
@@ -59,39 +59,40 @@ formatter.match({
   "location": "RegistrationPageSteps.openWebsite()"
 });
 formatter.result({
-  "duration": 2488557018,
+  "duration": 2785313280,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageSteps.correctPageUrlShouldBeDisplayed()"
 });
 formatter.result({
-  "duration": 8445863,
+  "duration": 9745067,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageSteps.userOpensRegistrationForm()"
 });
 formatter.result({
-  "duration": 191447811,
+  "duration": 249106347,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageSteps.registrationFormShouldBeOpen()"
 });
 formatter.result({
-  "duration": 96287959,
+  "duration": 631934720,
   "status": "passed"
 });
 formatter.match({
   "location": "RegistrationPageSteps.correctFieldsShouldBeDisplayedInTheRegistrationForm()"
 });
 formatter.result({
-  "duration": 1158370492,
-  "status": "passed"
+  "duration": 543737600,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Adresă]\u003e but was:\u003c[Email]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat com.maxbet.registration.stepdefs.RegistrationPageSteps.correctFieldsShouldBeDisplayedInTheRegistrationForm(RegistrationPageSteps.java:74)\r\n\tat ✽.And correct fields should be displayed in the registration form(RegistrationFormUI.feature:10)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 801433258,
+  "duration": 900570453,
   "status": "passed"
 });
 });

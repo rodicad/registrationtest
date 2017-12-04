@@ -2,92 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb2a450d-48f7-4f2b-a5ba-d763f5ab636f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_lambdaj_lambdaj_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_williamhill_whgtf_whgtf_webdriver_3_0_9.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_5_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_4_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_htmlunit_driver_2_21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_8_0.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/maxbetRegistration.iml" afterPath="$PROJECT_DIR$/maxbetRegistration.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/BrowserDriverInit.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/WebDriverProperties.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/config/driver/WebDriverProperties.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/components/registration/RegistrationFormImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/MaxebtMainPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxbet/registration/model/pages/abstracts/AbstractPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/maxbet/registration/cucumber_runners/RegistrationRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium/chromedriver/chromedriver.exe" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/selenium/selenium.properties" afterPath="$PROJECT_DIR$/src/test/resources/selenium/selenium.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/BrowserDriverInit.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/BrowserDriverInit.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/WebDriverProperties.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/config/driver/WebDriverProperties.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/components/registration/RegistrationFormImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/components/registration/RegistrationFormImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/MaxebtMainPage.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/MaxebtMainPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/abstracts/AbstractPage.class" afterPath="$PROJECT_DIR$/target/classes/com/maxbet/registration/model/pages/abstracts/AbstractPage.class" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/formatter.js" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/formatter.js" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/index.html" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/jquery-1.8.2.min.js" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/report.js" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/style.css" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-html-report/style.css" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/cucumber-json-report.json" afterPath="$PROJECT_DIR$/target/cucumber/cucumber-json-report.json" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/maxbet-registration-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/maxbet-registration-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/maxbet/registration/cucumber_runners/RegistrationRunner.class" afterPath="$PROJECT_DIR$/target/test-classes/com/maxbet/registration/cucumber_runners/RegistrationRunner.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/chromedriver/chromedriver.exe" afterPath="$PROJECT_DIR$/target/test-classes/selenium/chromedriver/chromedriver.exe" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/selenium.properties" afterPath="$PROJECT_DIR$/target/test-classes/selenium/selenium.properties" />
     </list>
     <ignored path="maxbetRegistration.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,8 +47,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -589,13 +505,15 @@
     <property name="SearchEverywhereHistoryKey" value="Registrat&#9;PSI&#9;JAVA://com.maxbet.registration.model.components.registration.RegistrationFormImpl" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\selenium\chromedriver" />
-      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources" />
-      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\cucumber" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.maxbet.registration" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Playtech_Projects\registrationtest\src\test\resources\selenium\firefoxdriver" />
+      <recent name="C:\Playtech_Projects\registrationtest\src\test\resources\selenium\chromedriver" />
+      <recent name="C:\git_root\registrationtest\src\main\java\com\maxbet\registration\config\driver" />
+      <recent name="C:\GIT_HUB\maxbetRegistration\src\main\java\com\maxbet\registration" />
+      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\selenium" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.maxbet.registration.model.components.interfaces" />
@@ -604,11 +522,10 @@
       <recent name="com.maxbet.registration.stepdefs" />
       <recent name="com.maxbet.registration.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Playtech_Projects\registrationtest\src\test\resources\selenium\firefoxdriver" />
-      <recent name="C:\git_root\registrationtest\src\main\java\com\maxbet\registration\config\driver" />
-      <recent name="C:\GIT_HUB\maxbetRegistration\src\main\java\com\maxbet\registration" />
-      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\selenium" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\selenium\chromedriver" />
+      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources" />
+      <recent name="C:\GIT_HUB\maxbetRegistration\src\test\resources\cucumber" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1014,14 +931,11 @@
       <updated>1505828056107</updated>
       <workItem from="1512133931268" duration="9380000" />
       <workItem from="1512145973787" duration="438000" />
-      <workItem from="1512373640313" duration="447000" />
+      <workItem from="1512373640313" duration="1339000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2017.12.01 at 16h 30m 33s.xml">
-      <configuration name="TestRunner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRunner - 2017.12.01 at 16h 31m 17s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
@@ -1049,9 +963,12 @@
     <history-entry file="TestRunner - 2017.12.01 at 17h 01m 02s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestRunner - 2017.12.04 at 08h 57m 21s.xml">
+      <configuration name="TestRunner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10265000" />
+    <option name="totallyTimeSpent" value="11157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1059,13 +976,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31247014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15991472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41426477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41332027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1085,7 +1003,6 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31247014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32680362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1466,8 +1383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
